@@ -213,7 +213,16 @@ textarea {
   background-color: yellow;
   position: absolute;
   width: 60px;
-  height: 60px;
+  height: 45px;
+}
+
+.other-bird {
+  background-color: deeppink;
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  z-index:  -1;
+  opacity: 0.2;
 }
 
 .obstacle {
